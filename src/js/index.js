@@ -9,4 +9,5 @@ import "../styles/index.css";
 import SecondsCounter from "./component/secondsCounter.jsx";
 
 //render your react application
-ReactDOM.createRoot(document.querySelector("#app")).render(<SecondsCounter />);
+const root = ReactDOM.createRoot(document.querySelector('#app'));
+root.render(<SecondsCounter />);

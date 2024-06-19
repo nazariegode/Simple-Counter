@@ -1,8 +1,44 @@
 body {
-    background-color: black;
+    background-color: rgb(40, 9, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.container {
-    background-color: white;
-    border-radius: 20px;
+.bigCounter {
+    display: flex;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.calendar{
+    font-size: 300px;
+    color: white;
+    margin-right: 10px;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.bigCounter .four,
+.bigCounter .three,
+.bigCounter .two,
+.bigCounter .one {
+    font-size: 200px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(40, 9, 107);
+    padding: 10px;
+    margin: 3px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+} 
